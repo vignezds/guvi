@@ -4,7 +4,7 @@ void main()
 {
   int n, i;
   bool isPrime = true;
-  cout << "Enter a positive integer: ";
+  cout << "Enter a number ";
   cin >> n;
   for(i = 2; i <= n / 2; ++i)
   {
@@ -15,7 +15,7 @@ void main()
       }
   }
   if (isPrime)
-      cout << "This is a prime number";
+      cout << "Prime";
   else
-      cout << "This is not a prime number";
+      cout << "Not a Prime";
 }
